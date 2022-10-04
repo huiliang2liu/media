@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        jcenter()
+        maven { url = uri("https://dl.bintray.com/kotlin/kotlin-eap") }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        maven { url = uri("https://dl.bintray.com/kotlin/kotlin-eap") }
+    }
+}
+rootProject.name = "media"
+include ':app'
+include ':media'
