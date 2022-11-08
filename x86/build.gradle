@@ -34,8 +34,6 @@ dependencies {
     compileOnly "com.google.android.exoplayer:exoplayer:2.9.6";
     compileOnly "com.google.android.exoplayer:extension-okhttp:r2.5.1";
     compileOnly "com.google.android.exoplayer:extension-rtmp:2.9.6";
-    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
-    implementation 'tv.danmaku.ijk.media:ijkplayer-armv5:0.8.8'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
@@ -45,8 +43,8 @@ apply plugin: 'maven-publish'  // gradle 7 以后使用
 boolean hasWeb = false
 
 var PUB_GROUP_ID = "com.lhl.media"
-var PUB_ARTIFACT_ID = "media-java"
-var PUB_CORE_VERSION = "1.0.3"
+var PUB_ARTIFACT_ID = "media-x86"
+var PUB_CORE_VERSION = "1.0.1"
 var PUBLISH_URL = "/Users/liuhuiliang/work/gitMaven"
 var PUBLISH_USERNAME = "deployment"
 var PUBLISH_PASSWORD = "000000"

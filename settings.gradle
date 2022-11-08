@@ -4,7 +4,7 @@ pluginManagement {
         google()
         mavenCentral()
         jcenter()
-        maven { url = uri("https://dl.bintray.com/kotlin/kotlin-eap") }
+        maven { url = uri("https://gitee.com/liu-huiliang/jarlibs/raw/master") }
     }
 }
 dependencyResolutionManagement {
@@ -13,9 +13,13 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter()
-        maven { url = uri("https://dl.bintray.com/kotlin/kotlin-eap") }
+        maven { url = uri("https://gitee.com/liu-huiliang/jarlibs/raw/master") }
     }
 }
 rootProject.name = "media"
 include ':app'
 include ':media'
+include ':arm64'
+include ':armeabi'
+include ':armeabi_v7'
+include ':x86'
